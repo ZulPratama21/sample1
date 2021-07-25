@@ -1,0 +1,111 @@
+#mynav{
+	background-color: #612c3857;
+}
+
+@media (max-width: 425px){
+	#home{
+		position:-webkit-sticky;
+		position:sticky;
+		top:0;
+		z-index:1020
+	}
+}
+
+@media (min-width: 995px){
+	#about .col-lg-4{
+		opacity: 0;
+		transform: translate(0, -40px);
+		transition: .5s;
+	}
+}
+
+#about .col-lg-4.appear{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+#gallery .col-md-3{
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+
+#gallery .col-md-3.appear{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+#story .col-md-4{
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+
+#story .col-md-4.appear{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+#date .date{
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+
+#date .date.appear{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+#map .map{
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+
+#map .map.appear{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+#closing .closing{
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+
+#closing .closing.appear{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+#guest .guest{
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+
+#guest .guest.appear{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+#message .row{
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+
+#message .row.appear{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#socialmedia{
+	a{color: #000;
+}}
